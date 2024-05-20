@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Udemy-Nodejs-Mongodb</title>
-    <link rel="stylesheet" href="index.css">
+    <title>タスク管理</title>
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
         integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -14,17 +14,15 @@
 
 <body>
     <form class="task-form">
-        <div class="task-form">
-            <h4>NodejsでToDoアプリ</h4>
-            <div class="form-control">
-                <input type="text" name="name" class="task-input" placeholder="例：勉強">
-                <button type="submit" class="btn submit-btn">送信</button>
-                <!-- submitにすることで、入力内容をサーバーに送信できる -->
-            </div>
-            <div class="form-alert"></div>
+        <h4>NodejsでToDoアプリ</h4>
+        <div class="form-control">
+            <input type="text" name="name" class="task-input" placeholder="例：勉強">
+            <button type="submit" class="btn submit-btn">送信</button>
+            <!-- submitにすることで、入力内容をサーバーに送信できる -->
         </div>
+        <div class="form-alert"></div>
     </form>
-    
+
     <section class="tasks-container">
         <div class="tasks">
             <!-- 疑似的にタスクをおいておく（下書き） -->
