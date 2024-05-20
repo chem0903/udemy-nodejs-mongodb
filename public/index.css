@@ -1,0 +1,23 @@
+.task-form {
+  background-color: aqua;
+}
+
+.tasks {
+  background-color: brown;
+}
+
+.single-task {
+  background-color: rgb(18, 106, 184);
+}
+
+.h5 {
+  border: 100px solid black;
+}
+
+.task-completed h5 {
+  text-decoration: line-through;
+}
+
+.task-completed .fa-check-circle {
+  visibility: visible;
+}

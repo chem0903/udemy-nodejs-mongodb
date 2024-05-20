@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemy-Nodejs-Mongodb</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+        integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- font-awesomeの導入 -->
+</head>
+
+<body>
+    <form class="task-form">
+        <div class="task-form">
+            <h4>NodejsでToDoアプリ</h4>
+            <div class="form-control">
+                <input type="text" name="name" class="task-input" placeholder="例：勉強">
+                <button type="submit" class="btn submit-btn">送信</button>
+                <!-- submitにすることで、入力内容をサーバーに送信できる -->
+            </div>
+            <div class="form-alert"></div>
+        </div>
+    </form>
+    
+    <section class="tasks-container">
+        <div class="tasks">
+            <!-- 疑似的にタスクをおいておく（下書き） -->
+            <!-- <div class="single-task">
+                <h5><span><i class="far fa-check-circle"></i></span>ToDOタスク</h5>
+                <div class="task-links"> -->
+            <!-- 編集リンク -->
+            <!-- <a href="#" class="edit-link">
+                        <i class="fas fa-edit"></i>
+                    </a> -->
+            <!-- ゴミ箱リンク -->
+            <!-- <button type="button" class="delete-btn">
+                        <i class="fas fa-trash"></i>
+                    </button>
+                </div>
+            </div> -->
+            <!-- <div class="single-task">
+                <h5><span><i class="far fa-check-circle"></i></span>ToDOタスク</h5>
+                <div class="task-links"> -->
+            <!-- 編集リンク -->
+            <!-- <a href="#" class="edit-link">
+                        <i class="fas fa-edit"></i>
+                    </a> -->
+            <!-- ゴミ箱リンク -->
+            <!-- <button type="button" class="delete-btn">
+                        <i class="fas fa-trash"></i>
+                    </button>
+                </div>
+            </div> -->
+        </div>
+    </section>
+    <!-- axiosの導入 -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <!-- script.jsと結びつける -->
+    <script src="index.js   "></script>
+    <!-- 注）先にaxiosを導入してからscript.jsを読み込まないとaxiosが使えない -->
+</body>
+
+</html>
